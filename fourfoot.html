@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>사족 - 작품 캡션</title>
+  <style>
+    :root{
+      --max-width:600px;
+      --body-padding:40px 24px;
+      --text-color:#111;
+      --meta-color:#888;
+      --base-font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Noto Sans KR", sans-serif;
+      --divider-color:#ddd;
+    }
+
+    html, body { height:100%; }
+    body {
+      margin:0;
+      padding:var(--body-padding);
+      background:#fff;
+      color:var(--text-color);
+      font-family:var(--base-font);
+      line-height:1.6;
+      font-size:16px;
+      max-width:var(--max-width);
+      margin-left:auto;
+      margin-right:auto;
+      text-align:left;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    h1 {
+      font-size:2.4rem;
+      font-weight:700;
+      margin:2.8em 0 0.5em 0;
+      letter-spacing:-0.01em;
+    }
+
+    .meta {
+      font-size:14px;
+      color:var(--meta-color);
+      margin-bottom:1.5em;
+    }
+    .meta div { margin-bottom:0.2em; }
+
+    .description {
+      white-space:pre-line;
+      font-size:16px;
+      color:var(--text-color);
+      margin-top:0;
+    }
+
+    .emph { font-style: italic; }
+
+    .divider {
+      margin:3em 0 1em 0;
+      border-top:1px solid var(--divider-color);
+    }
+
+    @media (max-width:420px){
+      body { padding:28px 18px; font-size:16px; }
+      h1 { font-size:2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>사족</h1>
+
+  <div class="meta">
+    <div>2025</div>
+    <div>플라스틱에 자석</div>
+    <div>60 × 85 × 22 cm</div>
+  </div>
+
+  <div class="description">
+쓸데없이 덧붙였다. 
+공간이 남았기 때문이다. 
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="description">
+The Korean word "<span class="emph">sajok</span>" means “to add a fifth wheel.” "<span class="emph">Sa</span>" means four, and "<span class="emph">jok</span>" means foot. The artist explains that this work was added simply because there was leftover space in the exhibition.
+
+<br><br> <!-- 영어 캡션 끝 두 줄 띄기 -->
+  </div>
+
+</body>
+</html>
