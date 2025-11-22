@@ -13,8 +13,8 @@
       --base-font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Noto Sans KR", sans-serif;
     }
 
-    html,body{height:100%}
-    body{
+    html, body { height:100%; }
+    body {
       margin:0;
       padding:var(--body-padding);
       background:#fff;
@@ -30,30 +30,33 @@
       -moz-osx-font-smoothing:grayscale;
     }
 
-    h1{
+    h1 {
       font-size:2.4rem;
       font-weight:700;
-      margin:2.8em 0 0.5em 0; /* ← 여기! 제목을 아래로 내리는 여백 */
+      margin:2.8em 0 0.5em 0; /* 제목 아래 여백 */
       letter-spacing:-0.01em;
     }
 
-    .meta{
+    .meta {
       font-size:14px;
       color:var(--meta-color);
       margin-bottom:1.5em;
     }
-    .meta div{margin-bottom:0.2em}
+    .meta div { margin-bottom:0.2em; }
 
-    .description{
-      white-space:pre-line;
+    .description {
+      white-space:pre-line; /* 줄바꿈 그대로 적용 */
       font-size:16px;
       color:var(--text-color);
       margin-top:0;
     }
 
+    /* 기울임(이탤릭) 스타일 - transliteration emphasis */
+    .emph { font-style: italic; }
+
     @media (max-width:420px){
-      body{padding:28px 18px;font-size:16px}
-      h1{font-size:2rem}
+      body { padding:28px 18px; font-size:16px; }
+      h1 { font-size:2rem; }
     }
   </style>
 </head>
@@ -69,14 +72,27 @@
 
   <div class="description">
 [이 총에 맞은 당신, 신의 은총을 받습니다. 
-다만 다른 세계에서…] 
+다만 다른 세계에서…]
 
-정말 그럴까? 
-은총을 맞는 순간에도, 그리고 그 이후에도 
-그것이 진짜 은총이었는지는 누구도 알지 못한다. 
+
+정말 그럴까?  
+은총을 맞는 순간에도, 그리고 그 이후에도  
+그것이 진짜 은총이었는지는 누구도 알지 못한다.
 
 그러나 어쩌면 마지막 순간에 맞이하게 될 그 평온이 
-진짜 은총일지도 모른다. 
+진짜 은총일지도 모른다.
+
+
+[Gun bless you.
+But only in another world…]
+
+The title “<span class="emph">Eunchong: Silver Gun</span>” plays on a triple meaning in Korean: <span class="emph">eun</span> means silver, <span class="emph">chong</span> means gun, and together <span class="emph">Eunchong</span> also means grace or divine blessing.
+
+This work takes the form of a gun named Grace. 
+A blessing, or so it claims.
+
+Yet who could ever say for certain whether such a “blessing” is real— in the moment it strikes, or in whatever may follow beyond it?
+Perhaps the stillness that comes at the very end is the only grace we ever receive.
   </div>
 
 </body>
