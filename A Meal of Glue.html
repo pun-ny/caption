@@ -11,7 +11,7 @@
       --text-color:#111;
       --meta-color:#888;
       --base-font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Noto Sans KR", sans-serif;
-      --divider-color:#ccc;
+      --divider-color:#ddd;
     }
 
     html, body { height:100%; }
@@ -52,9 +52,12 @@
       margin-top:0;
     }
 
+    .emph { font-style: italic; }
+
+    /* 구분선 — 위쪽 여백 넓게 */
     .divider {
+      margin:3em 0 1em 0;
       border-top:1px solid var(--divider-color);
-      margin:0;
     }
 
     @media (max-width:420px){
@@ -75,17 +78,15 @@
 
   <div class="description">
 근근이 먹고 살아가는 현실을 적나라하게 보여주는 영상이다.
+  </div>
 
+  <div class="divider"></div>
 
+  <div class="description">
+The Korean idiom "<span class="emph">ipp-e pulchilhada</span>" means “to scrape by” or “barely make a living.” Here, “ipp” refers to the mouth, and “pul” to glue. In this video, the artist visualizes the idiom literally, showing a person actually putting glue in their mouth.
 
-<hr class="divider">
-
-<br>
-In Korea, the expression "putting glue on one's mouth" means barely making a living. In this video, I literally applied glue to a person's mouth, interpreting the phrase in a direct, physical way. Because of this, the work can be seen as a reflection of the harsh reality of struggling to survive.
-
-
+<br><br> <!-- 영어 캡션 끝 두 줄 띄기 -->
   </div>
 
 </body>
 </html>
-
