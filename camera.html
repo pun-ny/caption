@@ -11,7 +11,7 @@
       --text-color:#111;
       --meta-color:#888;
       --base-font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Noto Sans KR", sans-serif;
-      --divider-color:#ccc;
+      --divider-color:#ddd;
     }
 
     html, body { height:100%; }
@@ -46,15 +46,18 @@
     .meta div { margin-bottom:0.2em; }
 
     .description {
-      white-space:pre-line; 
+      white-space:pre-line;
       font-size:16px;
       color:var(--text-color);
       margin-top:0;
     }
 
+    .emph { font-style: italic; }
+
+    /* 구분선 — 위쪽 여백 넓게 */
     .divider {
+      margin:3em 0 1em 0;
       border-top:1px solid var(--divider-color);
-      margin:0;
     }
 
     @media (max-width:420px){
@@ -81,17 +84,15 @@
 셋
 
 찰칵! (퍽)
+  </div>
 
+  <div class="divider"></div>
 
+  <div class="description">
+In Korea, the word <span class="emph">jjikda</span> can mean both “to take a photograph” and “to strike or chop something.” The artist draws on this dual meaning, treating the act of chopping a photo with an axe as an act of photographing. This is why the work is titled Camera.
 
-<hr class="divider">
-
-<br>
-In Korean, '<em>jjikda</em>' can mean both ‘to photograph’ and ‘to strike.’ This work does both literally: it ‘takes a photo’ with an axe, which is why it is titled 'Camera.'
-
-
+<br><br> <!-- 영어 캡션 끝 두 줄 띄기 -->
   </div>
 
 </body>
 </html>
-
