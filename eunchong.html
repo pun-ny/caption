@@ -50,11 +50,16 @@
       color:var(--text-color);
     }
 
+    /* 영어 캡션 마지막 부분에 2줄 여백 추가 */
+    .description.last {
+      margin-bottom:3em; /* ← 추가된 부분 (약 2줄 여백) */
+    }
+
     .emph { font-style: italic; }
 
-    /* 구분선 — 위쪽 여백을 늘려 '한 줄 더 띄기' 적용 */
+    /* 구분선 — 위쪽 여백 넓게 */
     .divider {
-      margin:3.5em 0 1.2em 0; /* ← 여기만 변경됨 */
+      margin:3.5em 0 1.2em 0;
       border-top:1px solid #ddd;
     }
 
@@ -89,7 +94,7 @@
 
   <div class="divider"></div>
 
-  <div class="description">
+  <div class="description last">
 [Gun bless you.
 But only in another world…]
 
