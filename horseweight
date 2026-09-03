@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>말의 무게 - 작품 캡션</title>
+  <style>
+    :root{
+      --max-width:600px;
+      --body-padding:40px 24px;
+      --text-color:#111;
+      --meta-color:#888;
+      --base-font: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Roboto, "Noto Sans KR", sans-serif;
+      --divider-color:#ddd;
+    }
+
+    html, body { height:100%; }
+    body {
+      margin:0;
+      padding:var(--body-padding);
+      background:#fff;
+      color:var(--text-color);
+      font-family:var(--base-font);
+      line-height:1.6;
+      font-size:16px;
+      max-width:var(--max-width);
+      margin-left:auto;
+      margin-right:auto;
+      text-align:left;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+    }
+
+    h1 {
+      font-size:2.4rem;
+      font-weight:700;
+      margin:2.8em 0 0.5em 0;
+      letter-spacing:-0.01em;
+    }
+
+    .meta {
+      font-size:14px;
+      color:var(--meta-color);
+      margin-bottom:1.5em;
+    }
+    .meta div { margin-bottom:0.2em; }
+
+    .description {
+      white-space:pre-line;
+      font-size:16px;
+      color:var(--text-color);
+      margin-top:0;
+    }
+
+    .emph { font-style: italic; }
+
+    .divider {
+      margin:3em 0 1em 0;
+      border-top:1px solid var(--divider-color);
+    }
+
+    @media (max-width:420px){
+      body { padding:28px 18px; font-size:16px; }
+      h1 { font-size:2rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>말의 무게</h1>
+
+  <div class="meta">
+    <div>2026</div>
+    <div>스테인리스</div>
+    <div>32 × 16 × 41 cm</div>
+  </div>
+
+  <div class="description">
+[0] 생각보다 말은 무겁다.
+
+
+말 한 마리의 평균 무게는 약 500kg에 달한다.
+이 정도의 무게를 가진 말이 우리 곁에 있다면,
+그 존재감은 결코 가볍지 않을 것이다.
+
+하지만 우리가 매일 사용하는 ‘말’은 눈에 보이지도,
+무게를 잴 수도 없다.
+그럼에도 어떤 말은 오래 남고,
+때로는 실제 무게보다 더 무겁게 느껴진다.
+
+이 작품은 ‘말’이라는 단어가 가진 두 가지 의미를 하나의 형태로 겹쳐,
+눈에 보이는 말의 무게와 보이지 않는 말의 무게를 함께 이야기한다.
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="description">
+[0] Words are heavier than you think.
+
+An average horse weighs around 500 kg.
+A creature carrying this much weight would naturally have a significant presence.
+
+Yet the other kind of “mal”—words—has no visible form
+and cannot be measured by weight.
+Still, some words remain with us for a long time,
+sometimes feeling heavier than their physical weight.
+
+This work brings together the two meanings of the Korean word
+<span class="emph">mal</span>: horse and words.
+It explores both the physical weight of a horse
+and the invisible weight carried by words.
+<br><br>
+</div>
+
+</body>
+</html>
